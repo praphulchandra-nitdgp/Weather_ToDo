@@ -49,7 +49,7 @@ const TodoWrapper = () => {
       </nav>
     <section className="hero-section">
     <div className="TodoWrapper">
-      <h1>What To-Do</h1>
+      <h1> Let'sDoThis! </h1>
       <TodoForm addTodo={addTodo} />
       {/* display todos */}
       {todos.map((todo) =>
