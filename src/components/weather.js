@@ -32,7 +32,7 @@ const Weather = () => {
     </nav>
        <section className='hero-section'>
         <div id="weather-container">
-        <h2>WhatToDo</h2>
+        <h2>WeatherForYou!</h2>
         <input type="text" id="city" placeholder="Enter city" onChange={(e) => setSearch(e.target.value)}/>
         <button onClick={getWeather}>Search</button>
 
