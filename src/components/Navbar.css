@@ -94,7 +94,7 @@ li {
   transition: 0.2s;
   
 }
-.menu-link ul li:hover > a {
+.menu-link ul li:hover a {
   color: rgb(225, 95, 59);
   transition: 0.2s;
 }
@@ -121,7 +121,7 @@ li {
 /* responsive css style  */
 @media (min-width: 999px) {
   .main-nav {
-    height: 7rem;
+    height: 8rem;
     grid-template-columns: 2rem 2fr 0.5fr 0fr 2rem;
   }
 
@@ -133,7 +133,7 @@ li {
 
 @media (max-width: 998px) {
   .main-nav {
-    height: 7rem;
+    height: 8rem;
     grid-template-columns: 3rem 2fr 0.5fr 0fr 3rem;
   }
 
@@ -146,7 +146,7 @@ li {
 
 @media (max-width: 798px) {
   .main-nav {
-    height: 7rem;
+    height: 7.5rem;
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
     padding-top: 5px;
   }
